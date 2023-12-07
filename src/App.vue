@@ -1,10 +1,10 @@
 <script setup>
-import Navbar from "./view/Layouts/Navbar.vue";
+import Navbar from "./views/Layouts/Navbar.vue";
 </script>
 
 <template>
   <div>
     <Navbar></Navbar>
+    <router-view></router-view>
   </div>
-  <router-view></router-view>
 </template>

@@ -7,22 +7,22 @@ const routes = [
   {
     path: "/",
     name: "home",
-    component: () => import("../view/Home.vue"),
+    component: () => import("../views/Home.vue"),
   },
   {
     path: "/users",
     name: "users.index",
-    component: () => import("../view/users/Index.vue"),
+    component: () => import("../views/users/Index.vue"),
   },
   {
     path: "/users/create",
     name: "users.create",
-    component: () => import("../view/Users/Create.vue"),
+    component: () => import("../views/Users/Create.vue"),
   },
   {
     path: "/users/edit/:id",
     name: "users.edit",
-    component: () => import("../view/Users/Edit.vue"),
+    component: () => import("../views/Users/Edit.vue"),
   },
 ];
 
