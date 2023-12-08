@@ -1,13 +1,10 @@
 <script setup></script>
 
 <template>
-  <div class="container mt-5 mb-5">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card border-0 rounded shadow">
-          <div class="card-body">HALAMAN Users EDIT</div>
-        </div>
-      </div>
+  <div class="w-full">
+    <div class="w-1/2 p-2 mx-auto">
+      <h1 class="font-semibold text-lg">Tambah User</h1>
+      <hr />
     </div>
   </div>
 </template>

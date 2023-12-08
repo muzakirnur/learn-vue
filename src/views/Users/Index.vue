@@ -10,7 +10,7 @@ const no = 1;
 const fetchDataUsers = async () => {
   /* fetching data from api */
   await Api.get("/api/users").then((response) => {
-    users.value = response.data.data;
+    users.value = response.data.data.data;
   });
 };
 
@@ -31,6 +31,19 @@ function deleteUsers(id) {
 
 <template>
   <div class="w-1/2 mx-auto">
+    <div class="w-full p-4 flex flex-wrap justify-between align-middle">
+      <div class="w-1/2">
+        <h1 class="font-semibold text-lg">Halaman Users</h1>
+      </div>
+      <div class="w-1/2 text-end">
+        <a
+          href="/users/create"
+          class="bg-indigo-500 hover:bg-indigo-600 p-2 rounded-lg shadow-sm transition duration-300 ease-in-out text-white"
+          >Tambah User</a
+        >
+      </div>
+    </div>
+    <hr class="mb-8" />
     <table class="table-fixed p-2 mx-auto">
       <thead>
         <th class="p-2 text-left bg-slate-200">No</th>
