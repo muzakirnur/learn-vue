@@ -24,6 +24,11 @@ const routes = [
     name: "users.edit",
     component: () => import("../views/users/Edit.vue"),
   },
+  {
+    path: "/movies",
+    name: "movies.index",
+    component: () => import("../views/movies/Index.vue"),
+  },
 ];
 
 /* Create Router */

@@ -152,7 +152,7 @@ import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/vue/24/outline";
 const navigation = [
   { name: "Dashboard", href: "/", current: false },
   { name: "Users", href: "/users", current: false },
-  { name: "Projects", href: "#", current: false },
+  { name: "Movies", href: "/movies", current: false },
   { name: "Calendar", href: "#", current: false },
 ];
 </script>
